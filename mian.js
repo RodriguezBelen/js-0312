@@ -24,6 +24,9 @@ form.addEventListener('submit', function (event) {
                             <h2>${data.nombre}</h2>
                             <h2 class="azul">${data.apellido}</h2>
                             </div>`
+console.log(acumuladora)
+console.log('---------------------------------------------')
+form.reset()
+contenedor.innerHTML = acumuladora
 });
 
-contenedor.innerHTML = acumuladora
