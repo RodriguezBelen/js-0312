@@ -1,0 +1,14 @@
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 50%;
+    background-color: blue;
+    padding: 10px;
+    border-radius: 8px;
+    margin: auto;
+}
+
+.azul{
+    color: blue;
+}
